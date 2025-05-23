@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Roshan द्वारा बनाइएको  Lotto Predictor</title>
+    <style>
+        body { font-family: sans-serif; margin: 30px; }
+        h2 { color: darkblue; }
+        .numbers { font-size: 20px; margin: 10px 0; }
+    </style>
+</head>
+<body>
+    <h1>Rajesh Ko Lage Lotto Generator</h1>
+
+    <form method="get" action="/">
+        <button type="submit">🔁 Generate Again</button>
+    </form>
+
+    <h2>Yo Chai Lotto 6 Numbers:</h2>
+    <div class="numbers">{{ lotto6 }}</div>
+
+    <h3>Hot Numbers (Lotto 6):</h3>
+    <div class="numbers">{{ hot6 }}</div>
+    
+    <h3>Cold Numbers (Lotto 6):</h3>
+    <div class="numbers">{{ cold6 }}</div>
+
+    <h2>Yo Chai Lotto 7 Numbers:</h2>
+    <div class="numbers">{{ lotto7 }}</div>
+
+    <h3>Hot Numbers (Lotto 7):</h3>
+    <div class="numbers">{{ hot7 }}</div>
+    
+    <h3>Cold Numbers (Lotto 7):</h3>
+    <div class="numbers">{{ cold7 }}</div>
+</body>
+</html>
